@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<banks xmlns="http://www.example.com/banks">
+    <state-bank id="n1" name="BelarusBank" country="Belarus">
+        <type>Metallic</type>
+        <depositor>
+            <depositor-name>Alexey</depositor-name>
+            <depositor-surname>Buslov</depositor-surname>
+        </depositor>
+        <account-id>65050200</account-id>
+        <amount-on-deposit>1000</amount-on-deposit>
+        <profitability>12</profitability>
+        <time-constrains>2</time-constrains>
+        <createDate>2019-11-17</createDate>
+        <status>State</status>
+    </state-bank>
+
+    <state-bank id="n2" name="TechnoBank" country="Belarus">
+        <type>Saving</type>
+        <depositor>
+            <depositor-name>Alex</depositor-name>
+            <depositor-surname>Aist</depositor-surname>
+        </depositor>
+        <account-id>11155558</account-id>
+        <amount-on-deposit>1000</amount-on-deposit>
+        <profitability>12</profitability>
+        <time-constrains>2</time-constrains>
+        <createDate>2019-02-04</createDate>
+        <status>State</status>
+    </state-bank>
+
+    <state-bank id="n3" name="EuroBank" country="France">
+        <type>Calculated</type>
+        <depositor>
+            <depositor-name>Valeriy</depositor-name>
+            <depositor-surname>Buslov</depositor-surname>
+        </depositor>
+        <account-id>12345338</account-id>
+        <amount-on-deposit>2000</amount-on-deposit>
+        <profitability>12</profitability>
+        <time-constrains>10</time-constrains>
+        <createDate>2019-12-04</createDate>
+        <status>State</status>
+    </state-bank>
+
+    <state-bank id="n4" name="EuroBank" country="Germany">
+        <type>Urgent</type>
+        <depositor>
+            <depositor-name>Irina</depositor-name>
+            <depositor-surname>Buslova</depositor-surname>
+        </depositor>
+        <account-id>12322338</account-id>
+        <amount-on-deposit>2000</amount-on-deposit>
+        <profitability>24</profitability>
+        <time-constrains>20</time-constrains>
+        <createDate>2019-12-04</createDate>
+        <status>State</status>
+    </state-bank>
+
+    <state-bank id="n5" name="BelVeb" country="Belarus">
+        <type>Poste_restante</type>
+        <depositor>
+            <depositor-name>Ivan</depositor-name>
+            <depositor-surname>Ivanov</depositor-surname>
+        </depositor>
+        <account-id>22222338</account-id>
+        <amount-on-deposit>2200</amount-on-deposit>
+        <profitability>64</profitability>
+        <time-constrains>30</time-constrains>
+        <createDate>2019-12-04</createDate>
+        <status>State</status>
+    </state-bank>
+
+    <state-bank id="n6" name="NBank" country="Belgian">
+        <type>Poste_restante</type>
+        <depositor>
+            <depositor-name>Vito</depositor-name>
+            <depositor-surname>Skaletta</depositor-surname>
+        </depositor>
+        <account-id>11112338</account-id>
+        <amount-on-deposit>2222</amount-on-deposit>
+        <profitability>69</profitability>
+        <time-constrains>3</time-constrains>
+        <createDate>2019-07-05</createDate>
+        <status>State</status>
+    </state-bank>
+
+    <state-bank id="n7" name="NBank" country="Russia">
+        <type>Saving</type>
+        <depositor>
+            <depositor-name>Nicolas</depositor-name>
+            <depositor-surname>Kage</depositor-surname>
+        </depositor>
+        <account-id>11112338</account-id>
+        <amount-on-deposit>2222</amount-on-deposit>
+        <profitability>69</profitability>
+        <time-constrains>39</time-constrains>
+        <createDate>2019-06-15</createDate>
+        <status>National</status>
+    </state-bank>
+
+    <state-bank id="n8" name="NBank" country="USA">
+        <type>Saving</type>
+        <depositor>
+            <depositor-name>Alex</depositor-name>
+            <depositor-surname>Kot</depositor-surname>
+        </depositor>
+        <account-id>00002338</account-id>
+        <amount-on-deposit>4444</amount-on-deposit>
+        <profitability>19</profitability>
+        <time-constrains>19</time-constrains>
+        <createDate>2019-11-15</createDate>
+        <status>National</status>
+    </state-bank>
+
+    <state-bank id="n9" name="USABank" country="USA">
+        <type>Saving</type>
+        <depositor>
+            <depositor-name>Ivan</depositor-name>
+            <depositor-surname>Fedorov</depositor-surname>
+        </depositor>
+        <account-id>11112338</account-id>
+        <amount-on-deposit>2222</amount-on-deposit>
+        <profitability>69</profitability>
+        <time-constrains>39</time-constrains>
+        <createDate>2018-06-15</createDate>
+        <status>State</status>
+    </state-bank>
+
+    <state-bank id="n10" name="ChinaBank" country="China">
+        <type>Metallic</type>
+        <depositor>
+            <depositor-name>Stan</depositor-name>
+            <depositor-surname>Le</depositor-surname>
+        </depositor>
+        <account-id>11112331</account-id>
+        <amount-on-deposit>2223</amount-on-deposit>
+        <profitability>29</profitability>
+        <time-constrains>49</time-constrains>
+        <createDate>2018-07-10</createDate>
+        <status>National</status>
+    </state-bank>
+
+</banks>

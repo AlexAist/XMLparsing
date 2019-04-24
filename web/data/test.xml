@@ -1,0 +1,29 @@
+<banks xmlns="http://www.example.com/banks">
+    <state-bank id="n1" name="BelarusBank" country="Belarus">
+        <type>Metallic</type>
+        <depositor>
+            <depositor-name>Alex</depositor-name>
+            <depositor-surname>Aist</depositor-surname>
+        </depositor>
+        <account-id>12345678</account-id>
+        <amount-on-deposit>1000</amount-on-deposit>
+        <profitability>12</profitability>
+        <time-constrains>2</time-constrains>
+        <createDate>2019-08-04</createDate>
+        <status>State</status>
+    </state-bank>
+
+    <state-bank id="n2" name="BelarusBank" country="Belarus">
+        <type>Metallic</type>
+        <depositor>
+            <depositor-name>Alex</depositor-name>
+            <depositor-surname>Aist</depositor-surname>
+        </depositor>
+        <account-id>12345678</account-id>
+        <amount-on-deposit>1000</amount-on-deposit>
+        <profitability>12</profitability>
+        <time-constrains>2</time-constrains>
+        <createDate>2019-08-04</createDate>
+        <status>State</status>
+    </state-bank>
+</banks>

@@ -1,0 +1,61 @@
+<schema elementFormDefault="qualified"
+        xmlns:tns="http://www.example.com/banks"
+        targetNamespace="http://www.example.com/banks"
+        xmlns="http://www.w3.org/2001/XMLSchema">
+    <element name="banks">
+        <complexType>
+            <sequence>
+                <element ref="tns:currentBank" minOccurs="2" maxOccurs="unbounded"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="currentBank" type="tns:Bank" abstract="true"/>
+    <element name="state-bank" type="tns:StateBank" substitutionGroup="tns:currentBank"/>
+    <complexType name="Bank">
+        <sequence>
+            <element name="type">
+                <simpleType>
+                    <restriction base="string">
+                        <enumeration value="Saving"/>
+                        <enumeration value="Poste_restante"/>
+                        <enumeration value="Urgent"/>
+                        <enumeration value="Calculated"/>
+                        <enumeration value="Accumulative"/>
+                        <enumeration value="Metallic"/>
+                    </restriction>
+                </simpleType>
+            </element>
+            <element name="depositor">
+                <complexType>
+                    <sequence>
+                        <element type="string" name="depositor-name"/>
+                        <element type="string" name="depositor-surname"/>
+                    </sequence>
+                </complexType>
+            </element>
+            <element name="account-id">
+                <simpleType>
+                    <restriction base="string">
+                        <pattern value="[0-9]{8}"/>
+                    </restriction>
+                </simpleType>
+            </element>
+            <element type="short" name="amount-on-deposit"/>
+            <element type="byte" name="profitability"/>
+            <element type="byte" name="time-constrains"/>
+            <element type="date" name="createDate"/>
+        </sequence>
+        <attribute type="string" name="name" />
+        <attribute type ="ID" name="id"/>
+        <attribute type="string" name="country"/>
+    </complexType>
+    <complexType name="StateBank">
+        <complexContent>
+            <extension base="tns:Bank">
+                <sequence>
+                    <element name="status" type="string"/>
+                </sequence>
+            </extension>
+        </complexContent>
+    </complexType>
+</schema>
